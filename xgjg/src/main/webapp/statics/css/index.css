@@ -1,0 +1,201 @@
+body{
+    background-color: #cccccc;
+}
+/*³¬¼¶²Ëµ¥*/
+div .index_menu{
+    width: 1100px;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: -3px;
+    background-color: #f1f1f1;
+}
+.index_menu{
+    width: 1100px;
+    height: 510px;
+    margin: 0 auto;
+    margin-top: -3px;
+}
+div .index_menu_left_two a:hover{
+    color: #3366cc;
+}
+div .index_menu_left_three a:hover{
+    color: #3366cc;
+}
+div .index_menu_left_four a:hover{
+    color: #3366cc;
+}
+div .index_menu_left_five a:hover{
+    color: #3366cc;
+}
+div .index_menu_left_six a:hover{
+    color: #3366cc;
+}
+div.index_menu_left{
+    width: 160px;
+    height: 510px;
+    background-color: white;
+    float: left;
+}
+div.index_menu-left a{
+    text-decoration: none;
+    color: #333333;
+}
+div.index_menu_left_one a{
+    color: #3366cc;
+    font-weight: bold;
+}
+div.index_menu_left div{
+    display: inline-block;
+    padding: 32px 0 0 32px;
+    font: normal  16px  "Î¢ÈíÑÅºÚ";
+}
+.index_menu_left a{
+    text-decoration: none;
+    color: #333333;
+}
+
+/*ÄÚÈÝ*/
+input:focus{
+    outline:none;
+    border:none;
+}
+/*ÈÕÆÚ*/
+div.index_calendar{
+    font:normal   16px  "Î¢ÈíÑÅºÚ"  ;
+    color: #999999;
+}
+div.index_calendar input{
+    padding: 5px;
+    width: 150px;
+    margin-left: 410px;
+    margin-top: 22px;
+    font:normal   14px  "Î¢ÈíÑÅºÚ"  ;
+    color: #999999;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+/*ÈÕÆÚ2*/
+div.index_calendar_one{
+    margin-top: -35px;
+    margin-left: 770px;
+}
+div.index_calendar_one input{
+    padding: 5px;
+    width: 150px;
+    font:normal   14px  "Î¢ÈíÑÅºÚ"  ;
+    color: #999999;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+form{
+    display: inline-block;
+}
+/*ÌáÊ¾Ñ¡Ôñ*/
+div.index_pickers a{
+    color: white;
+    font:normal   14px  "Î¢ÈíÑÅºÚ"  ;
+    margin-left: 12px;
+}
+div.index_pickers{
+    padding:  6px ;
+    width:80px;
+    background-color: #3366cc;
+    margin-left: 940px;
+    margin-top: -32px;
+    border-radius: 5px;
+}
+/*±êÌâ1*/
+div.index_first_one{
+    margin-left: 32px;
+    margin-top: 24px;
+    display: inline-block;
+}
+/*±³¾°1*/
+div.index_background{
+    width: 160px;
+    height: 140px;
+    background-color: white;
+    margin-left: 190px;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+/*±³¾°ÖÐÄÚÈÝÎÄ×Ö*/
+div.index_background_content a{
+    font:normal 14px 'Î¢ÈíÑÅºÚ';
+    color: #333333;
+    margin-top: 30px;
+    display: inline-block;
+}
+div .index_background_content_one a{
+    font:normal 30px "ºÚÌå";
+    color: #3366cc;
+    margin-top:20px;
+    display: inline-block;
+}
+/*±³¾°2*/
+div.index_background_one{
+    width: 280px;
+    height: 140px;
+    background-color: white;
+    margin-left: 380px;
+    margin-top: -140px;
+    border-radius: 5px;
+}
+/*±³¾°ÄÚÈÝÎÄ×Ö2*/
+div.index_background_content_two a{
+    font:normal   14px  "Î¢ÈíÑÅºÚ";
+    color: #333333;
+    margin-top: 30px;
+    display: inline-block;
+}
+div .index_background_content_three a{
+    font:normal   30px  "Î¢ÈíÑÅºÚ";
+    color: #3366cc;
+    margin-top:20px;
+    display: inline-block;
+}
+/*±³¾°3*/
+div.index_background_two{
+    width: 160px;
+    height: 140px;
+    background-color: white;
+    margin-left: 690px;
+    margin-top: -140px;
+    border-radius: 5px;
+}
+/*±³¾°ÄÚÈÝÎÄ×Ö3*/
+div.index_background_content_four a{
+    font:normal   14px  "Î¢ÈíÑÅºÚ";
+    color: #333333;
+    margin-top: 30px;
+    display: inline-block;
+}
+div.index_background_content_five a{
+    font:normal   30px  "Î¢ÈíÑÅºÚ";
+    color: #3366cc;
+    margin-top:20px;
+    display: inline-block;
+}
+/*±êÌâ2*/
+div.index_first_two{
+    margin-left: 32px;
+    margin-top: 24px;
+    display: inline-block;
+}
+div.index_background_three{
+    width: 400px;
+    background-color: white;
+    margin-left:190px;
+    margin-top: 14px;
+    border-radius: 5px;
+
+}
+.audit_news a{
+    text-decoration:none ;
+    display: inline-block;
+    padding: 10px 0;
+
+    position: absolute; top:27px; right: 500px;
+}

@@ -1,0 +1,221 @@
+body{
+    background-color: #cccccc;
+}
+div.menu{
+    margin-top:-4px;
+}
+div.The-editor{
+    width: 1100px;
+    height: 510px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+div.menu_left{
+    width: 160px;
+    height: 510px;
+    background-color: white;
+    float: left;
+}
+div.menu_left div{
+    display: inline-block;
+    padding: 32px 0 0 32px;
+    font: normal  16px  "Î¢ÈíÑÅºÚ";
+}
+.menu_left a{
+    text-decoration: none;
+    color: #333333;
+}
+.menu_left a:hover{
+    color:#3366cc;
+}
+.menu_left_five a{
+    color: #3366cc;
+    font-weight: bold;
+}
+.The-editor_navigation{
+    width: 940px;
+    height:80px;
+    float:right;
+}
+.The-editor_navigation_details{
+    margin-top:32px;
+    margin-left:32px;
+}
+.The-editor_navigation_new{
+    color:#ffffff;
+    text-align:center;
+    line-height:30px;
+    float:right;
+    width:80px;
+    height:32px;
+    background-color:#3366cc;
+    border-radius: 5px;
+    margin-right:20px;
+    margin-top:-12px;
+    text-decoration: none;
+}
+.The-editor_navigation_new:hover{
+    background-color: #3399cc;
+    color:black;
+}
+.The-editor_content{
+    width:888px;
+    height:255px;
+    border:solid 1px #333333;
+    float:left;
+    margin-left:32px;
+    margin-top:32px;
+}
+.The-editor_contentone{
+    background-color:#333333;
+    width:888px;
+    height:1px;
+    margin-top:102px;
+}
+.The-editor_contenttow{
+    background-color:#333333;
+    width:888px;
+    height:1px;
+    margin-top:74px;
+}
+.The-editor_contentthree{
+    background-color:#333333;
+    width:1px;
+    height:255px;
+    margin-top:-190px;
+    float:left;
+    margin-left:130px;
+}
+.The-editor_contentfour{
+    background-color:#333333;
+    width:1px;
+    height:255px;
+    margin-top:-190px;
+    float:left;
+    margin-left:140px;
+}
+.The-editor_contentfive{
+    background-color:#333333;
+    width:1px;
+    height:255px;
+    margin-top:-190px;
+    float:left;
+    margin-left:96px;
+}
+.The-editor_contentfive_messages{
+    float:left;
+    margin-top:-222px;
+    margin-left:33px;
+}
+.messages span{
+    color:#333333;
+    font: 16px "Î¢ÈíÑÅºÚ";
+}
+.The-editor_contentfive_messagestow{
+    margin-left:72px;
+}
+.The-editor_contentfive_messagesthree{
+    margin-left:60px;
+}
+.The-editor_contentfive_messagesfour{
+    margin-left:59px;
+}
+.The-editor_contentfive_messagesfive{
+    margin-left:61px;
+}
+.The-editor_contentfive_messagessix{
+    margin-left:44px;
+}
+.The-editor_contentfive_messagesseven{
+    margin-left:54px;
+}
+.The-editor_contentfive_messagesone{
+    color:#3366cc;
+}
+.The-editor_typefive{
+    margin-left:80px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+select:focus{
+    outline: none;
+    border: none;
+}
+.The-editor_typesix{
+    margin-left:83px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+.The-editor_typeseven{
+    margin-left:71px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+.The-editor_typefive{
+    margin-left:80px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+select:focus{
+    outline: none;
+    border: none;
+}
+.The-editor_typesix{
+    margin-left:83px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+.The-editor_contentfive_messagesten{
+    margin-left:71px;
+    color:#999999;
+    text-decoration: none;
+}
+.The-editor_typeseven{
+    margin-left:71px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+.The-editor_contentfive_messageseleven{
+    margin-left:92px;
+}
+.The-editor_contentfive_messageseighteen{
+     margin-left:83px;
+ }
+.The-editor_contentfive_messagestwelve{
+    margin-left:87px;
+    text-decoration: none;
+    color:#333333;
+}
+.The-editor_contentfive_messagesnineteen{
+     margin-left:80px;
+     text-decoration: none;
+     color:#333333;
+ }
+.The-editor_contentfive_messagesthirteen{
+    margin-left:54px;
+    color:#999999;
+    text-decoration: none;
+}
+.The-editor_contentfive_messagesnum-seventeen{
+    margin-left:54px;
+    text-decoration: none;
+}
+.The-editor_contentfive_messagesafter{
+    margin-top:75px;
+}
+.The-editor_contentfive_messagesAfter{
+    margin-top:62px;
+}
+.audit_news a{
+    text-decoration:none ;
+    display: inline-block;
+    padding: 10px 0;
+
+    position: absolute; top:27px; right: 500px;
+}

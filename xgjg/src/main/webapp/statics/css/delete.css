@@ -1,0 +1,249 @@
+body{
+    background-color: #cccccc;
+}
+div.menu{
+    margin-top:-4px;
+}
+div.delete{
+    width: 1100px;
+    height: 510px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+div.menu_left{
+    width: 160px;
+    height: 510px;
+    background-color: white;
+    float: left;
+}
+div.menu_left div{
+    display: inline-block;
+    padding: 32px 0 0 32px;
+    font: normal  16px  "Î¢ÈíÑÅºÚ";
+}
+.menu_left a{
+    text-decoration: none;
+    color: #333333;
+}
+.menu_left a:hover{
+    color:#3366cc;
+}
+.menu_left_five a{
+    color: #3366cc;
+    font-weight: bold;
+}
+.delete_navigation{
+    width: 940px;
+    height:80px;
+    float:right;
+}
+.delete_navigation_details{
+    margin-top:32px;
+    margin-left:32px;
+}
+.delete_navigation_new{
+    color:#ffffff;
+    text-align:center;
+    line-height:30px;
+    float:right;
+    width:80px;
+    height:32px;
+    background-color:#3366cc;
+    border-radius: 5px;
+    margin-right:20px;
+    margin-top:-12px;
+    text-decoration: none;
+}
+.delete_navigation_new:hover{
+    background-color: #3399cc;
+    color:black;
+}
+.delete_content{
+    width:888px;
+    height:255px;
+    border:solid 1px #333333;
+    float:left;
+    margin-left:32px;
+    margin-top:32px;
+}
+.delete_contentone{
+    background-color:#333333;
+    width:888px;
+    height:1px;
+    margin-top:102px;
+}
+.delete_contenttow{
+    background-color:#333333;
+    width:888px;
+    height:1px;
+    margin-top:74px;
+}
+.delete_contentthree{
+    background-color:#333333;
+    width:1px;
+    height:255px;
+    margin-top:-190px;
+    float:left;
+    margin-left:130px;
+}
+.delete_contentfour{
+    background-color:#333333;
+    width:1px;
+    height:255px;
+    margin-top:-190px;
+    float:left;
+    margin-left:140px;
+}
+.delete_contentfive{
+    background-color:#333333;
+    width:1px;
+    height:255px;
+    margin-top:-190px;
+    float:left;
+    margin-left:96px;
+}
+.delete_contentfive_messages{
+    float:left;
+    margin-top:-222px;
+    margin-left:33px;
+}
+.messages span{
+    color:#333333;
+    font: 16px "Î¢ÈíÑÅºÚ";
+}
+.delete_contentfive_messagestow{
+    margin-left:72px;
+}
+.delete_contentfive_messagesthree{
+    margin-left:60px;
+}
+.delete_contentfive_messagesfour{
+    margin-left:59px;
+}
+.delete_contentfive_messagesfive{
+    margin-left:61px;
+}
+.delete_contentfive_messagessix{
+    margin-left:44px;
+}
+.delete_contentfive_messagesseven{
+    margin-left:54px;
+}
+.delete_contentfive_messagesone{
+    color:#3366cc;
+}
+.delete_typefive{
+    margin-left:80px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+select:focus{
+    outline: none;
+    border: none;
+}
+.delete_typesix{
+    margin-left:83px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+.delete_typeseven{
+    margin-left:71px;
+    text-decoration: none;
+    border:none;
+    background-color: transparent;
+}
+.delete_contentfive_messageseleven{
+    margin-left:92px;
+}
+.delete_contentfive_messageseighteen{
+    margin-left: 96px;
+}
+.delete_contentfive_messagestwelve{
+    margin-left:87px;
+    text-decoration: none;
+    color:#333333;
+}
+.delete_contentfive_messagesnineteen{
+    margin-left:91px;
+    text-decoration: none;
+    color:#333333;
+}
+.delete_contentfive_messagesthirteen{
+    margin-left:54px;
+    text-decoration: none;
+}
+.delete_contentfive_messagesafter{
+    margin-top:75px;
+}
+.delete_contentfive_messagesAfter{
+    margin-top:62px;
+}
+.delete_contentfive_messagesnineteen{
+    color:#3366cc;
+}
+.delete_border{
+    float:left;
+    margin-left:-922px;
+    margin-top:-79.5px;
+}
+.delete_delete_borderone{
+    position: absolute;
+    opacity:0.3;
+    width:940px;
+    height:510px;
+    background-color: #333333;
+}
+.deleke-delete_bordertow{
+    position: absolute;
+    width:192px;
+    height:150px;
+    background-color: #ffffff;
+    margin-left:543px;
+    margin-top:293px;
+}
+.delete_delete_yes-no{
+    font:normal 14px"Î¢ÈíÑÅºÚ";
+    margin:16px 0 0 16px;
+}
+.delete_line{
+    margin-top:16px;
+}
+.delete_delete_delete_yes{
+    width:60px;
+    height:24px;
+    background-color: #3366cc;
+    border-radius: 5px;
+    text-align: center;
+    line-height:24px;
+    color:white;
+    margin-left:40px;
+    margin-top:36px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+}
+.delete-delete_delete_no{
+    width:60px;
+    height:24px;
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    line-height:24px;
+    color:#666666;
+    margin-left:116px;
+    margin-top: -24px;
+    text-decoration: none;
+    display:block;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 14px;
+}
+.audit_news a{
+    text-decoration:none ;
+    display: inline-block;
+    padding: 10px 0;
+
+    position: absolute; top:27px; right: 500px;
+}

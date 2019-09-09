@@ -1,0 +1,341 @@
+body{
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+div.transaction_alipay_manage{
+    width: 1100px;
+    height: 510px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    margin-top: -4px;
+}
+div.transaction_alipay_manage a{
+    text-decoration: none;
+    color: #333333;
+}
+
+div.transaction_alipay_menu_left{
+    width: 160px;
+    height: 510px;
+    background-color: white;
+    float: left;
+}
+div.transaction_alipay_menu_left_two a{
+    font-weight: bold;
+    color: #3366cc;
+}
+div.transaction_alipay_menu_left div{
+    display: inline-block;
+    padding: 32px 0 0 32px;
+    font: normal  16px  "Î¢ÈíÑÅºÚ";
+    color: #333333;
+}
+.transaction_alipay_menu_left a{
+    text-decoration: none;
+}
+div.transaction_alipay_menu_right{
+    float: left;
+}
+div.transaction_alipay_list{
+    position: absolute;
+}
+div.transaction_alipay_list .all{
+    display: inline-block;
+    padding: 8px  32px 8px  8px;
+    background-color: #3366cc;
+    border-radius: 5px;
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: white;
+    margin-top: 24px;
+    margin-left: 48px;
+    background-image: url("../images/transaction_alipay/drop-down.png");
+    background-repeat: no-repeat;
+    background-position: 88px center;
+}
+div.transaction_alipay_list_hidden {
+    width: 108px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  0 1px 10px #cccccc;
+    margin-left: 48px;
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+div.transaction_alipay_list_hidden a {
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: #333333;
+    float: left;
+    display: inline-block;
+    padding: 16px 0 0 16px;
+
+}
+
+/*ÏÂÀ­²Ëµ¥*/
+div.transaction_alipay_list:hover div.transaction_alipay_list_hidden{
+    display: inline-block;
+}
+
+div.transaction_alipay_search{
+    width: 160px;
+    height: 32px;
+    float: left;
+    margin-left: 208px;
+    margin-top: 24px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: #999999;
+    display: inline-block;
+    background-image: url("../images/transaction/search.png");
+    background-repeat: no-repeat;
+    background-position: 132px 9px;
+
+}
+div.transaction_alipay_search_name{
+    margin-left: 16px;
+    line-height: 32px;
+}
+div.transaction_alipay_date_one{
+    width: 116px;
+    height: 32px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    margin-left: 32px;
+    margin-top: 24px;
+    line-height: 32px;
+}
+input.transaction_alipay_date_one{
+    width: 116px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #999999;
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: #999999;
+    border-radius: 5px;
+}
+div.transaction_alipay_date_to{
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: #999999;
+    float: left;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+div.transaction_alipay_date_two{
+    width: 116px;
+    height: 32px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    margin-left: 16px;
+    margin-top: 24px;
+    line-height: 32px;
+}
+input.transaction_alipay_date_two{
+    width: 116px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #999999;
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: #999999;
+    border-radius: 5px;
+}
+div.transaction_alipay_refresh{
+    width: 64px;
+    height: 32px;
+    background-color: #3366cc;
+    font: normal  14px "Î¢ÈíÑÅºÚ";
+    color: #ffffff;
+    border-radius: 5px;
+    float: left;
+    margin-left: 148px;
+    margin-top: 24px;
+    line-height: 32px;
+}
+div.transaction_alipay_refresh a{
+    color: #ffffff;
+}
+
+
+/*ÄÚÈÝ*/
+div.transaction_alipay_content{
+    width: 844px;
+    height: 398px;
+    background-color: white;
+    border-radius: 10px;
+    font: normal  12px "Î¢ÈíÑÅºÚ";
+    color: #666666;
+    position: relative;
+    margin-left: 48px;
+    margin-top: 80px;
+    z-index: 1;
+}
+div.transaction_alipay_content_merchant{
+    float: left;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+div.transaction_alipay_content_title{
+    color: #333333;
+}
+div.transaction_alipay_content_name{
+    margin-top: 32px;
+}
+div.transaction_alipay_content_name_increase{
+    color: #cc3333;
+    margin-top: 32px;
+}
+div.transaction_alipay_content_name_reduce{
+    color: #33cc33;
+    margin-top: 32px;
+}
+
+div.transaction_alipay_content_number{
+    float: left;
+    margin-left: 80px;
+    margin-top: 24px;
+}
+div.transaction_alipay_content_time{
+    float: left;
+    margin-left: 78px;
+    margin-top: 24px;
+}
+div.transaction_alipay_content_state{
+    float: left;
+    margin-left: 64px;
+    margin-top: 24px;
+}
+div.transaction_alipay_content_money{
+    float: left;
+    margin-left: 80px;
+    margin-top: 24px;
+}
+div.transaction_alipay_content_mode{
+    float: left;
+    margin-left: 80px;
+    margin-top: 24px;
+}
+div.transaction_alipay_content_tips{
+    float: left;
+    margin-left: 32px;
+    margin-top: 48px;
+    color: #999999;
+}
+
+/*Ò³Âë*/
+div.transaction_alipay_content_page{
+    float: left;
+    margin-left: 156px;
+    margin-top: 40px;
+    width: 462px;
+    height: 24px;
+}
+div.transaction_alipay_content_page_left{
+    float: left;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 0.5px solid #cccccc;
+    background-image: url("../images/transaction_alipay/left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.transaction_alipay_content_page_one{
+    float: left;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: #3366cc;
+    background-image: url("../images/transaction_alipay/left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    line-height: 24px;
+    margin-left: 8px;
+}
+div.transaction_alipay_content_page_two{
+    float: left;
+    width: 24px;
+    height: 24px;
+    border: 0.5px solid #cccccc;
+    border-radius: 5px;
+    color: #999999;
+    line-height: 24px;
+    margin-left: 8px;
+}
+div.transaction_alipay_content_page_right{
+    float: left;
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    border: 0.5px solid #cccccc;
+    background-image: url("../images/transaction_alipay/right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 8px;
+}
+div.transaction_alipay_content_page_three{
+    float: left;
+    height: 24px;
+    color: #999999;
+    line-height: 24px;
+    margin-left: 8px;
+}
+div.transaction_alipay_content_page_four{
+    float: left;
+    width: 24px;
+    height: 24px;
+    border: 0.5px solid #cccccc;
+    border-radius: 5px;
+    color: #999999;
+    line-height: 24px;
+    margin-left: 8px;
+}
+
+/*Ðü¸¡Ð§¹û*/
+div.transaction_alipay_menu_left_one a:hover{
+    color: #3366cc;
+}
+div.transaction_alipay_menu_left_three a:hover{
+    color: #3366cc;
+}
+div.transaction_alipay_menu_left_four a:hover{
+    color: #3366cc;
+}
+div.transaction_alipay_menu_left_five a:hover{
+    color: #3366cc;
+}
+div.transaction_alipay_menu_left_six a:hover{
+    color: #3366cc;
+}
+div.transaction_alipay_content_page_two:hover{
+    background-color: #cccccc;
+}
+div.transaction_alipay_content_page_left:hover{
+    background-color: #cccccc;
+}
+div.transaction_alipay_content_page_right:hover{
+    background-color: #cccccc;
+}
+a.transaction_alipay_list_hidden_wechat:hover{
+    color: #3366cc;
+}
+a.transaction_alipay_list_hidden_alipay:hover{
+    color: #3366cc;
+}
+div.transaction_alipay_refresh:hover{
+    background-color: #cccccc;
+}
+.audit_news a{
+    text-decoration:none ;
+    display: inline-block;
+    padding: 10px 0;
+
+    position: absolute; top:27px; right: 500px;
+}

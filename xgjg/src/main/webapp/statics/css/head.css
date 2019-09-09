@@ -1,0 +1,22 @@
+div.status-bar{
+    width: 1100px;
+    height: 60px;
+    background-color: #3399cc;
+    background-image: url("../images/head/head.png");
+    background-repeat: no-repeat;
+    background-position: 995px 10px;
+    margin: 0 auto;
+}
+div.status-bar a{
+    display: inline-block;
+    padding: 20px  20px  20px  32px;
+    font:normal  14px "Î¢ÈíÑÅºÚ";
+    color: white;
+}
+div.status-bar .title2{
+    margin-left: 180px;
+}
+div.head{
+    float: right;
+    margin-right: 108px;
+}

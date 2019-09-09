@@ -1,0 +1,69 @@
+div.login_manage{
+    width: 1100px;
+    height: 570px;
+    margin: 0 auto;
+    background-image: url("../images/login/beijing.png");
+}
+a{
+    text-decoration: none;
+}
+div.login_background{
+    width: 430px;
+    height: 410px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 541px;
+    display: inline-block;
+    margin-top: 80px;
+}
+div .login_header{
+    font:normal   18px  "Î¢ÈíÑÅºÚ"  ;
+    color: #333333;
+    margin-top:60px;
+
+}
+div.login_text input{
+    padding: 10px;
+    width: 300px;
+    background-color: #f1f1f1;
+    font:normal   16px  "Î¢ÈíÑÅºÚ"  ;
+    margin-left:55px;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+div.login_pasword input{
+    padding: 10px;
+    width: 300px;
+    background-color: #f1f1f1;
+    font:normal   16px  "Î¢ÈíÑÅºÚ"  ;
+    margin-left:55px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+input:focus{
+    outline:none;
+    border:none;
+}
+div.login_logon a{
+    display: inline-block;
+    padding: 10px;
+    width: 300px;
+    background-color: #cccccc;
+    font:normal   18px  "Î¢ÈíÑÅºÚ"  ;
+
+    border: 1px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+div.login_logon:hover a{
+    background-color:#3366cc ;
+}
+div.login_zi{
+    color: #666666;
+    font:normal   14px  "Î¢ÈíÑÅºÚ"  ;
+    margin-left:65px;
+    margin-top: 5px;
+}
